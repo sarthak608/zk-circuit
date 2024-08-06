@@ -132,11 +132,17 @@ Our proposed solution aims to enhance blockchain security by detecting and mitig
 - **Detect Suspicious Patterns:**
 The model analyzes the live transactions in the context of past pending transaction that are recently feeded to detect any suspicious patterns indicative of potential attacks.
 - **Execute Appropriate Actions:**
-Based on the model’s analysis, determine the appropriate response:<br>
+Based on the model’s analysis, determine the appropriate response:
+<br>
+
 **1.State Change in Smart Contract:**
-If the transaction is identified as a high-priority threat, initiate a state change in the relevant smart contract to prevent the attack using sessions keys approved by authorized party or send a request for sender approval.<br>
+If the transaction is identified as a high-priority threat, initiate a state change in the relevant smart contract to prevent the attack using sessions keys approved by authorized party or send a request for sender approval.
+<br>
+
 **2.Notification Alert:**
 Send an alert to the relevant stakeholders to inform them of the detected suspicious transaction.<br>
+<br>
+
 **3Both:**
 Execute both the state change in the smart contract using permission signers(Session Keys) of actual owners and send a notification alert to ensure immediate response to recipients.
 This could be a possible or more robust way to enhance the security of blockchain transactions, providing real-time detection and mitigation of potential attacks.
